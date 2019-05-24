@@ -1,0 +1,67 @@
+.footer {
+  min-height: 200px;
+  background-color: $primary-blue;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include for-medium-devices-down {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+  }
+  @include for-phone-only {
+    flex-direction: column;
+  }
+}
+
+.footer-claric-logo {
+  width: 150px;
+  @include for-medium-devices-down {
+    margin-bottom: 30px;
+  }
+}
+
+.footer-seo {
+  height: 35px;
+  background: #2D3465;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  @include for-phone-only {
+    p, a {
+      font-size: 10px;
+    }
+  }
+}
+
+.footer-contact {
+  display: flex;
+  @include for-phone-only {
+    display: block;
+  }
+}
+
+.each-contact {
+  color: white;
+  margin-right: 15px;
+  p {
+    margin: 0;
+    font-weight: lighter;
+  }
+  @include for-phone-only {
+    margin: 20px 0;
+  }
+}
