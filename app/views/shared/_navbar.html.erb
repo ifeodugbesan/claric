@@ -1,5 +1,7 @@
 <div class="navbar-container">
-  <%= image_tag 'claric-logo.png', class: "main-navbar-logo" %>
+  <%= link_to :root do %>
+    <%= image_tag 'claric-logo.png', class: "main-navbar-logo" %>
+  <% end %>
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
     <%= image_tag 'claric-logo.png', class: "mobile-navbar-logo" %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
