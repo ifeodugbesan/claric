@@ -28,6 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px 0 40px 0;
 }
 
 .title-line-break-container {
@@ -36,6 +37,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin: 20px 0 40px 0;
   hr {
     position: absolute;
     width: 100%;
@@ -46,7 +48,6 @@
 
 .title-break {
   display: flex;
-  margin: 20px 0 40px 0;
   position: relative;
   z-index: 2;
 }
