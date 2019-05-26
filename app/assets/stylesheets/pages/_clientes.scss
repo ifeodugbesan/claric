@@ -1,0 +1,19 @@
+.nuestros-clientes {
+  border-bottom: 2px solid #758F79;
+  width: 370px;
+  margin-bottom: 50px;
+  @include for-phone-only {
+    width: 100%;
+  }
+  p {
+    color: #404778;
+    margin-bottom: 5px;
+  }
+}
+
+.clientes-card {
+  margin-bottom: 30px;
+  img {
+    width: 90%;
+  }
+}
