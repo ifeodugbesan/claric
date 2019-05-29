@@ -1,0 +1,136 @@
+.servicios-banner {
+  background-color: #306B40;;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 300px;
+  position: relative;
+  padding: 30px;
+  .footer-claric-logo {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  @include for-phone-only {
+    margin-bottom: 900px;
+  }
+}
+
+.servicios-banner-text {
+  color: white;
+  font-size: 20px;
+  width: 53%;
+  text-align: center;
+  @include for-medium-devices-down {
+    font-size: 18px;
+  }
+  @include for-small-devices-down {
+    font-size: 16px;
+    width: 90%;
+  }
+  @include for-phone-only {
+    line-height: 30px;
+  }
+}
+
+.each-option {
+  width: 150px;
+  height: 242px;
+  position: relative;
+  margin: 25px;
+  img {
+    width: 100%;
+  }
+  @include for-medium-devices-down {
+    width: 110px;
+    height: 177px;
+    margin: 25px 10px;
+  }
+  @include for-small-devices-down {
+    margin: 25px 7px;
+  }
+}
+
+.each-option-content {
+  position: absolute;
+  width: 150px;
+  height: 242px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    text-align: center;
+    color: #878887;
+  }
+  @include for-medium-devices-down {
+    width: 110px;
+    height: 177px;
+  }
+}
+
+.each-option-number {
+  height: 82px;
+  width: 150px;
+  @include absCenter;
+  h3 {
+    margin: 15px 0 0 0;
+  }
+  @include for-medium-devices-down {
+    width: 110px;
+  }
+}
+
+.each-option-text {
+  height: 160px;
+  width: 150px;
+  @include absCenter;
+  p {
+    text-align: center;
+    color: #878887;
+    margin: 0;
+    padding: 0 20px;
+  }
+  @include for-medium-devices-down {
+    p {
+    width: 110px;
+    padding: 0;
+    font-size: 14px;
+    }
+  }
+}
+
+.servicios-options {
+  position: absolute;
+  top: 393px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  @include for-medium-devices-down {
+    top: 415px;
+  }
+  @include for-small-devices-down {
+    top: 416px;
+  }
+  @include for-phone-only {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.sub-header {
+  text-align: center;
+  color: $primary-blue;
+  font-size: 18px;
+}
+
+.certificada-logos {
+  margin: 100px auto 100px auto;
+  height: 500px;
+  width: 70%;
+  background: grey;
+}
