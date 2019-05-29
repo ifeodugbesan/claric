@@ -17,3 +17,26 @@
     width: 90%;
   }
 }
+
+.client-card-image {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  @include for-large-devices-down {
+    width: 450px;
+    height: 450px;
+  }
+  @include for-medium-devices-down {
+    width: 320px;
+    height: 320px;
+  }
+  @include for-small-devices-down {
+    width: 250px;
+    height: 250px;
+  }
+  @include for-phone-only {
+    width: 100%;
+    padding-top: 100%;
+  }
+}
