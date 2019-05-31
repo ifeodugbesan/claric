@@ -57,11 +57,21 @@
 .each-contact {
   color: white;
   margin-right: 15px;
+
+  i {
+    margin-right: 5px;
+  }
   p {
     margin: 0;
+    font-size: 12px;
+    width: 150px;
     font-weight: lighter;
   }
   @include for-phone-only {
     margin: 20px 0;
+
+    p {
+      width: 280px;
+    }
   }
 }
