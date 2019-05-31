@@ -15,7 +15,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'geocoder'
-gem 'hotloader'
+gem 'cloudinary'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
