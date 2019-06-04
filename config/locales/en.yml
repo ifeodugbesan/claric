@@ -1,3 +1,74 @@
+en:
+  navbar:
+    claric: "We are Claric"
+    services: "Services"
+    clients: "Clients"
+    contact_us: "Contact Us"
+  footer:
+    seo: "Websites | Mobile & Web Apps"
+  pages:
+    home:
+      first_sub_header: "Customs Agency"
+      content:
+        logistics: "Logistics"
+        logistics_text: "We offer customs consulting to simplify your logistics operations in any of the main ports of Colombia."
+        imports: "Imports"
+        imports_text: "Our experts are ready to handle your incoming merchandise, reviewing tariff treatments, documentation compliance, assuring agility and cost efficiency."
+        exports: "Exports"
+        exports_text: "Our experts are ready to handle your outgoing merchandise be it by air, land or sea. We adhere to BASC standards, assuring safety and compliance in our operations."
+        licences: "Licences"
+        licences_text: "We are available 24/7 to process your import license requirements through the appropriate Ministries."
+        customs_transit: "Customs Transit"
+        customs_transit_text: "Our experts are ready to handle your transfer requirements from duty free zones to port terminals."
+      support_header: "We support Colombia"
+      card_section:
+        exports: "EXPORTS"
+        exports_text: "Our aim is to make trade simple and assure compliance in all your operations."
+        imports: "IMPORTS"
+        imports_text: "We help our clients to bring their merchandise from over 280 ports from all over the world."
+      we_support_text: "We scupport foundations and sponsor academic degrees to give opportunities and provide all necessary resources to our youth in order to let them participate in our local economy."
+    somos_claric:
+      celebrate: "In 2017 we celebrated our first 50 years in Colombia"
+      what_we_do: "What we do"
+      what_we_do_text: "Claric is a customs broker agency with over 50 years of experience handling international trade and national customs requirements in Colombia. Our aim is to simplify customs requirements and help you achieve compliance with all your import and export needs. Working closely with our clients our processes ensure safety and guarantee customs clearance for your incoming and outgoing merchandise."
+      how_we_do_it: "How we do it"
+      how_we_do_it_text: "Working closely with our clients, our team of experts reviews documentation, assess trade tariff treatments, and helps you every step of the way to achieve customs clearance for your merchandise. Our processes are audited by BASC to ensure quality and safety."
+      why_we_do_it: "Why we do it"
+      why_we_do_it_text: "In 1967 Clara Moreno and Richard Williams consolidated their experience in international trade to create Claric (Clara and Richard). Their aim was to offer the best quality service for foreign companies wanting to do business in Colombia and national companies wanting to trade their products abroad. Today we continue their legacy, working towards our Client’s satisfaction and strengthening Colombia’s ties with the world."
+    servicios:
+      banner_text_top: "Our aim is to offer simple and secure customs solutions for our Clients."
+      banner_text_bottom: "Our services include"
+      imports: "Customs agency service for"
+      exports: "Customs agency service for"
+      logistics: "Service for"
+      customs_consulting: "Foreign trade"
+      imports_word: "imports"
+      exports_word: "exports"
+      logistics_word: "logistics"
+      customs_consulting_word: "consultancy"
+      logo_header: "CLARIC counts with certified quality standards"
+    clientes:
+      header: "Our Customers"
+      text: "Our main customers participate in the following industries"
+      industry_one: "Oil & Gas"
+      industry_two: "Tempered Glass"
+      industry_three: "Aluminum"
+      industry_four: "Flooring"
+      industry_five: "Marble"
+      industry_six: "Chemical Products"
+      industry_seven: "Mining & Construction"
+      industry_eight: "Printing"
+      industry_nine: "Industrial Supplements"
+
+
+
+
+
+
+
+
+
+
 # Files in the config/locales directory are used for internationalization
 # and are automatically loaded by Rails. If you want to use locales other
 # than English, add the necessary files in this directory.
@@ -28,6 +99,3 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
-en:
-  hello: "Hello world"

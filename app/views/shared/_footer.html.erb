@@ -27,5 +27,8 @@
   </div>
 </div>
 <div class="footer-seo">
-  <p>Hoxton Digital | <%= link_to 'Paginas & Web Aplicaciones', 'https://www.hoxton-digital.com', target: "_blank" %></p>
+  <p><%= link_to'http s://www.hoxton-digital.com', target: "_blank" do %>
+    <p>Hoxton Digital | <%= t('footer.seo') %></p>
+    <% end %>
+  </p>
 </div>

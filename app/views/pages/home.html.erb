@@ -15,7 +15,7 @@
     <div class="title-break">
         <div class="triangle-left"></div>
         <div class="middle-part">
-          <p>Agencia Aduanera</p>
+          <p><%= t('.first_sub_header') %></p>
         </div>
         <div class="triangle-right"></div>
     </div>
@@ -27,37 +27,29 @@
       <div class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center">
         <div class="home-service">
           <%= image_tag 'logistica.png' %>
-          <h4 class="home-service-title">Logística</h4>
-          <p class="home-service-text">
-            Prestando servicios de intermadiación aduanera en importación y exportación. Estamos presentes en los principales puertos marítimos y
-          </p>
+          <h4 class="home-service-title"><%= t('.content.logistics') %></h4>
+          <p class="home-service-text"><%= t('.content.logistics_text') %></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center">
         <div class="home-service">
           <%= image_tag 'importaciones.png' %>
-          <h4 class="home-service-title">Importaciones</h4>
-          <p class="home-service-text">
-            Prestando servicios de intermadiación aduanera en importación y exportación. Estamos presentes en los principales puertos marítimos y
-          </p>
+          <h4 class="home-service-title"><%= t('.content.imports') %></h4>
+          <p class="home-service-text"><%= t('.content.imports_text') %></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center">
         <div class="home-service">
           <%= image_tag 'exportaciones.png' %>
-          <h4 class="home-service-title">Exportaciones</h4>
-          <p class="home-service-text">
-            Prestando servicios de intermadiación aduanera en importación y exportación. Estamos presentes en los principales puertos marítimos y
-          </p>
+          <h4 class="home-service-title"><%= t('.content.exports') %></h4>
+          <p class="home-service-text"><%= t('.content.exports_text') %></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center">
         <div class="home-service">
           <%= image_tag 'licencias.png' %>
-          <h4 class="home-service-title">Licencias</h4>
-          <p class="home-service-text">
-            Prestando servicios de intermadiación aduanera en importación y exportación. Estamos presentes en los principales puertos marítimos y
-          </p>
+          <h4 class="home-service-title"><%= t('.content.licences') %></h4>
+          <p class="home-service-text"><%= t('.content.licences_text') %></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center">
@@ -72,25 +64,11 @@
       <div class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center">
         <div class="home-service">
           <%= image_tag 'transitosaduaneros.png' %>
-          <h4 class="home-service-title">Tránsitos Aduaneros</h4>
-          <p class="home-service-text">
-            Prestando servicios de intermadiación aduanera en importación y exportación. Estamos presentes en los principales puertos marítimos y
-          </p>
+          <h4 class="home-service-title"><%= t('.content.customs_transit') %></h4>
+          <p class="home-service-text"><%= t('.content.customs_transit_text') %></p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="title-line-break-container">
-    <div class="side-bar sb-left"></div>
-    <div class="title-break">
-        <div class="triangle-left"></div>
-        <div class="middle-part">
-          <p>Apoyamos a Colombia</p>
-        </div>
-        <div class="triangle-right"></div>
-    </div>
-    <div class="side-bar sb-right"></div>
-    <hr>
   </div>
   <div class="bananas-background">
     <div class="bananas-background-web">
@@ -100,7 +78,7 @@
       <%= image_tag 'bananas-background-mobile.png' %>
     </div>
     <div class="bananas-text">
-      <h3 style="color: white;">EXPORTACIONES</h3>
+      <h3 style="color: white;"><%= t('.card_section.exports') %></h3>
       <div class="title-line-break-container" style="margin: 10px 0;">
         <div class="side-bar sb-left" style="border-color: white;"></div>
         <div class="title-break">
@@ -108,7 +86,7 @@
         <div class="side-bar sb-right"  style="border-color: white;"></div>
         <hr style="border-color: white;">
       </div>
-      <p style="color: white;">Facilitamos la exportación de los productos principales del sector agro en Colombia. </p>
+      <p style="color: white;"><%= t('.card_section.exports_text') %></p>
       <%= link_to contactenos_path do %>
          <div class="title-break" style='margin: 0;'>
           <div class="triangle-left" style="border-right: 15px solid white;"></div>
@@ -129,7 +107,7 @@
       <%= image_tag 'containers-background-mobile.png' %>
     </div>
     <div class="bananas-text">
-      <h3 style="color: white;">IMPORTACIONES</h3>
+      <h3 style="color: white;"><%= t('.card_section.imports') %></h3>
       <div class="title-line-break-container" style="margin: 10px 0;">
         <div class="side-bar sb-left" style="border-color: white;"></div>
         <div class="title-break">
@@ -137,7 +115,7 @@
         <div class="side-bar sb-right"  style="border-color: white;"></div>
         <hr style="border-color: white;">
       </div>
-      <p style="color: white;">Ayudamos a nuestros clientes a importar de mas de 280 puertos alrededor del mundo.</p>
+      <p style="color: white;"><%= t('.card_section.imports_text') %></p>
       <%= link_to contactenos_path do %>
          <div class="title-break" style='margin: 0;'>
           <div class="triangle-left" style="border-right: 15px solid white;"></div>
@@ -155,14 +133,14 @@
     <div class="title-break">
         <div class="triangle-left"></div>
         <div class="middle-part">
-          <p>Apoyamos a Colombia</p>
+          <p><%= t('.support_header') %></p>
         </div>
         <div class="triangle-right"></div>
     </div>
     <div class="side-bar sb-right"></div>
     <hr>
   </div>
-  <p style="color: #ADADAD;">Apoyamos a fundaciones y patrocinamos becas para darle la oportunidad a nuestros niños y jovenes en tener todos los recursos necesarios para participar en nuestra economia.</p>
+  <p style="color: #ADADAD;"><%= t('.we_support_text') %></p>
   <div class="logo-holder-container">
     <div class="logo-holder logo-holder-left">
       <%= image_tag 'universidad-del-norte.png' %>
