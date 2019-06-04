@@ -4,14 +4,16 @@
   height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-bottom: 300px;
   position: relative;
-  padding: 30px;
-  .footer-claric-logo {
-    width: 250px;
-    margin-bottom: 30px;
+  padding: 30px 30px 60px 30px;
+  img {
+    width: 200px;
+    @include for-small-devices-down {
+      width: 160px;
+    }
   }
   @include for-phone-only {
     margin-bottom: 900px;
@@ -23,6 +25,11 @@
   font-size: 20px;
   width: 53%;
   text-align: center;
+  margin: 10px 0;
+  @include for-large-devices-down {
+    font-size: 18px;
+    width: 70%;
+  }
   @include for-medium-devices-down {
     font-size: 18px;
   }
@@ -129,8 +136,58 @@
 }
 
 .certificada-logos {
-  margin: 100px auto 100px auto;
-  height: 500px;
-  width: 70%;
-  background: grey;
+  width: 100%;
+  @include absCenter;
+}
+
+
+.servicios-logo-holder-container {
+  display: flex;
+  padding: 120px;
+  @include for-small-devices-down {
+    flex-direction: column;
+    align-items: center;
+  }
+  @include for-medium-devices-down {
+    padding: 120px 0;
+  }
+  @include for-small-devices-down {
+    padding: 70px 0;
+  }
+}
+
+.servicios-logo-holder {
+  padding: 20px 50px;
+  @include absCenter;
+  img {
+    width: 100%;
+  }
+}
+
+.servicios-logo-holder-left {
+  padding: 20px;
+  width: 55%;
+  @include for-small-devices-down {
+    width: 100%;
+    padding: 20px 50px;
+  }
+  @include for-phone-only {
+    padding: 0;
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+.servicios-logo-holder-right {
+  padding: 20px;
+  width: 45%;
+  @include for-small-devices-down {
+    width: 90%;
+    padding: 20px 50px;
+  }
+  @include for-phone-only {
+    padding: 0;
+    width: 100%;
+    margin: 20px 0;
+  }
 }
