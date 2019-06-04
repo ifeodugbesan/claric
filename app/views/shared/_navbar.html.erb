@@ -1,8 +1,8 @@
 <div class="navbar-container">
-    <% if params[:locale] == 'es' %>
-        <%= link_to "+ English", { locale: "en" }, { class: "locale-link" } %>
-    <% else %>
+    <% if params[:locale] == 'en' %>
         <%= link_to "+ Español", { locale: "es" }, { class: "locale-link" } %>
+    <% else %>
+        <%= link_to "+ English", { locale: "en" }, { class: "locale-link" } %>
     <% end %>
   <%= link_to :root do %>
     <%= image_tag 'claric-logo.png', class: "main-navbar-logo" %>
