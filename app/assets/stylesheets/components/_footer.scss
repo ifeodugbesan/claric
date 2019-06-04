@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     padding: 30px 50px;
   }
-  @include for-phone-only {
+  @include for-small-devices-down {
     flex-direction: column;
   }
 }
@@ -49,7 +49,7 @@
 
 .footer-contact {
   display: flex;
-  @include for-phone-only {
+  @include for-small-devices-down {
     display: block;
   }
 }
@@ -67,7 +67,7 @@
     width: 150px;
     font-weight: lighter;
   }
-  @include for-phone-only {
+  @include for-small-devices-down {
     margin: 20px 0;
 
     p {
