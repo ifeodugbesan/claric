@@ -14,20 +14,32 @@ class PagesController < ApplicationController
   def contactenos
     @markers =
       {
-        lat: 10.96854,
-        lng: -74.78132
+        lat: 10.986914,
+        lng: -74.779365
       },
       {
-        lat: 10.39972,
-        lng: -75.51444
+        lat: 10.423356,
+        lng: -75.548130
       },
       {
-        lat: 6.25184,
-        lng: -75.56359
+        lat: 4.661928,
+        lng: -74.109624
       },
       {
-        lat: 11.24079,
-        lng: -74.19904
+        lat: 11.263605,
+        lng: -74.211405
       }
   end
 end
+
+
+
+
+
+
+
+
+
+
+
+
