@@ -41,6 +41,22 @@
   }
 }
 
+.locale-link-two {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  font-size: 14px;
+  color: #ADADAD;
+  &:hover {
+    text-decoration: none;
+    color: #ADADAD;
+  &:focus {
+    text-decoration: none;
+    color: #ADADAD;
+    }
+  }
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }

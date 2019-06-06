@@ -4,12 +4,14 @@
     <% else %>
         <%= link_to "+ English", { locale: "en" }, { class: "locale-link" } %>
     <% end %>
+    <%= link_to '+ Portal de Clientes', 'http://190.242.98.26:8014/synergysoft/', { class: "locale-link-two" } %>
   <%= link_to :root do %>
     <%= image_tag 'claric-logo.png', class: "main-navbar-logo" %>
   <% end %>
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
     <%= image_tag 'claric-logo.png', class: "mobile-navbar-logo" %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
       <span>MENU</span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,6 +43,8 @@
             <hr class="navbar-line <%= params[:controller] == 'pages' && params[:action] == 'contactenos' ? 'navbar-line-active' : '' %>">
           <% end %>
         </li>
+        <li class="nav-item">
+          <%= link_to 'Portal de Clientes', 'http://190.242.98.26:8014/synergysoft/', class: "nav-link" %>
       </ul>
     </div>
   </div>
