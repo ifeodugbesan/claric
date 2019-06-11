@@ -143,6 +143,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rb-readline (0.5.5)
     redis (4.1.1)
     rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
@@ -212,6 +213,7 @@ DEPENDENCIES
   pry-rails
   puma
   rails (= 5.2.2)
+  rb-readline
   redis
   sassc-rails
   simple_form
