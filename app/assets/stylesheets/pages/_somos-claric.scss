@@ -110,3 +110,31 @@
   }
 }
 
+.downloadable {
+  background-color: #DEDEE5;
+  height: 400px;
+  margin-bottom: 20px;
+  @include absCenterColumn;
+
+  p:nth-child(2) {
+    color: $primary-blue;
+    font-size: 20px;
+    opacity: 0.8;
+  }
+
+  p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.about-logo {
+  width: 200px;
+  height: auto;
+}

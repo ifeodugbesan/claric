@@ -11,6 +11,10 @@ class PagesController < ApplicationController
   def clientes
   end
 
+  def download_pdf
+    send_file "#{Rails.root}/app/assets/images/#{params[:name]}.pdf", type: "application/pdf", x_sendfile: true
+  end
+
   def contactenos
     @markers =
       {

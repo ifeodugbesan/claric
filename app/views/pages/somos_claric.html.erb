@@ -46,4 +46,19 @@
   <div class="somos-claric-text">
     <p><%= t('.why_we_do_it_text') %></p>
   </div>
+  <div class="downloadable">
+    <%= image_tag 'claric-logo.png', class: "about-logo" %>
+    <p><%= t('.politica_de') %></p>
+    <%= link_to download_pdf_path + "?name=TNC" do %>
+      <div class="title-break-container">
+        <div class="title-break">
+          <div class="triangle-left"></div>
+          <div class="middle-part">
+            <p>Click Aquí</p>
+          </div>
+          <div class="triangle-right"></div>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </div>
