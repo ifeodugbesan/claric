@@ -16,6 +16,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'geocoder'
 gem 'cloudinary'
+gem 'meta-tags'
 gem 'cookies_eu'
 
 group :development do
