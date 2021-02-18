@@ -16,6 +16,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'geocoder'
 gem 'cloudinary'
+gem 'cookies_eu'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
